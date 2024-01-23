@@ -55,6 +55,9 @@ class _teacherViewState extends State<teacherView> {
             const SizedBox(height: 20,),
             Text('User :       $userType'),
             const SizedBox(height: 20,),
+            Text('User :       $userType'),
+            const SizedBox(height: 20,),
+
 
             const SizedBox(height: 20,),
             InkWell(
