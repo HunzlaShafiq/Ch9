@@ -1,4 +1,3 @@
-import 'package:ch9/main.dart';
 import 'package:ch9/utils/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -52,8 +51,6 @@ class _teacherViewState extends State<teacherView> {
             Text('Email :     $email'),
             const SizedBox(height: 20,),
             Text('Age :       $age'),
-            const SizedBox(height: 20,),
-            Text('User :       $userType'),
             const SizedBox(height: 20,),
             Text('User :       $userType'),
             const SizedBox(height: 20,),
