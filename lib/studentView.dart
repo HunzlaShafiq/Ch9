@@ -56,7 +56,7 @@ class _studentViewState extends State<studentView> {
             Text('User :       $userType'),
             const SizedBox(height: 20,),
             Text('User :       ${widget.data['name']}'),
-            const SizedBox(height: 20,),
+            const SizedBox(height: 15,),
             InkWell(
               onTap: () async{
                 SharedPreferences hs=await SharedPreferences.getInstance();
